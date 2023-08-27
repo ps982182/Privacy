@@ -1,0 +1,475 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+ @media only screen and(min-width:20rem){
+    body{
+        width:100%;
+    }
+} 
+ /* @media(max-width:998rem){
+    html{
+        font-size:55%;
+    }
+} 
+ @media(max-width:768rem){
+    html{
+        font-size:45%;
+    }
+}   */
+body{
+    color:white;
+    letter-spacing:0.0625rem;
+}
+.top{
+    height:50rem;
+    width:100%;
+    background-image:url("https://c0.wallpaperflare.com/preview/750/951/777/asphalt-black-and-white-buildings-cars.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.header{
+    height:4.375rem;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.815);
+    display:flex;
+     /* justify-content:space-evenly;  */
+}
+ .logo{
+    display:flex;
+    align-items:center;
+   justify-content:center;
+   
+} 
+
+.icon-text{
+    color:white;
+    height:2.5rem;
+    border:0.125rem solid transparent;
+    margin-top:0.625rem;
+    width:4.375rem;
+   padding-bottom:0.625rem;
+   padding-left:0.625rem;
+   padding-top:0.625rem;
+    margin-right:1.875rem;
+    display:flex;
+    align-items:center;
+   justify-content:center;
+   padding-right:0.625rem;
+   letter-spacing:0.0625rem;
+}
+.border:hover{
+    border:2px solid white;
+    background-color:green;
+    font-weight:800;
+}
+
+.list{
+    color:white;
+    display:flex;
+    margin-top:0.625rem;
+    margin-left:25rem;
+    align-items:center;
+}
+.list p{
+    margin-right:2.5rem;
+    border:0.125rem solid transparent;
+    padding:0.625rem 0.625rem;
+    letter-spacing:0.0625rem;
+}
+.help-text{
+    color:white;
+    height:1.25rem;
+    margin-top:0.9375rem;
+    margin-left:21.875rem;
+    letter-spacing:0.0625rem;
+}
+.number-help{
+    letter-spacing:0.0625rem;
+    color:white;
+    margin-left:21.875rem;
+    margin-bottom:0.625rem;
+    font-size:1.3rem;
+}
+.hero-section{
+    margin-top:6.25rem;
+    margin-left:62.5rem;
+}
+.small-text{
+    font-size:1.0625rem;
+}
+.better{
+   font-size:4.375rem;
+   margin-top:1.875rem;
+   margin-bottom:1.875rem;
+}
+.phone{
+    margin-top:9.375rem;
+   
+}
+.callus{
+    margin-left:5.625rem;
+font-size:1.25rem;
+}
+.fl{
+    display:flex;
+    align-items:flex-end;
+}
+.call-icon{
+    background-color:red;
+    height:4.0625rem;
+    width:4.375rem;
+    font-size:3.75rem;
+}
+.number{
+    margin-left:1.25rem;
+    font-size:1.875rem;
+}
+.top2{
+    height:43.75rem;
+    width:100%;
+    display:flex;
+}
+.white{
+    height:43.75rem;
+    width:50%;
+    background-color:rgb(168, 155, 155);
+}
+.red{
+    height:43.75rem;
+    width:50%;
+    background-color:rgb(162, 11, 11);
+}
+.big-text{
+    margin-top:5rem;
+    color:black;
+    font-size:4.0625rem;
+    margin-left:2.5rem;
+    margin-right:2.5rem;
+    letter-spacing:0rem;
+    font-weight:500;
+}
+.small{
+    margin-top:2.5rem;
+    color:black;
+    font-size:1.0625rem;
+    letter-spacing:0rem;
+    margin-left:2.5rem;
+    margin-right:3.75rem;
+    font-weight:500;
+}
+.red-text{
+    color:red;
+    font-size:1.25rem;
+    margin-left:2.5rem;
+    margin-top:4.375rem;
+   
+}
+.red-text a{
+    text-decoration:none;
+    color:red;
+}
+.chotu{
+    margin-top:6.25rem;
+    margin-left:5rem;
+}
+.fifteen{
+    height:28.125rem;
+    /* margin-left:40px; */
+    margin-top:5.625rem;
+   
+    
+}
+.fifteen h1{
+    font-size:6.25rem;
+}
+.fifteen p{
+    font-size:1.5625rem;
+
+}
+.five{
+    display:flex;
+    justify-content:space-evenly;
+}
+.two{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:3.75rem;
+    margin-right:1.875rem;
+}
+.top3{
+    height:79.375rem;
+    width:100%;
+    background-color:rgb(230, 216, 216);
+}
+
+.service{
+    color:black;
+  
+    text-align:center;
+    font-size:3.4375rem;
+}
+.smal{
+    color:black;
+    text-align:center;
+    margin-top:1.25rem;
+    letter-spacing:0rem;
+}
+.three{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:3.75rem;
+    margin-left:3.125rem;
+}
+.image{
+    /* background-image:url(""); */
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:15.625rem;
+    width:80%;
+}
+.box{
+    width:30%;
+    height:12.5rem;
+}
+.three h3{
+    margin-top:1.25rem;
+    font-size:1.875rem;
+    color:black;
+}
+.three p{
+    font-size:0.9375rem;
+    color:black;
+    margin-top:1.25rem;
+}
+.three2{
+    margin-top:15.625rem;
+}
+.red-btn{
+    height:4.375rem;
+    margin-top:16.875rem;
+   text-align:center;
+   font-size:1.5625rem;
+   
+}
+.red-btn a{
+    text-decoration:none;
+    color:red;
+    font-weight:700;
+    border:0.1875rem solid red;
+    padding:0.625rem 0.625rem;
+    background-color:rgb(228, 225, 225);
+}
+.top4{
+    height:62.5rem;
+    width:100%;
+    background-image:url("https://media.istockphoto.com/id/1332097112/photo/the-black-and-silver-are-light-gray-with-white-the-gradient-is-the-surface-with-templates.webp?b=1&s=170667a&w=0&k=20&c=uzejUTDUlhurH8GcYgKElOMBFkK84FEp9BIzzmncGWo=");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.para{
+    text-align:center;
+}
+.what{
+    text-align:center;
+    margin-top:1.25rem;
+    font-size:3.125rem;
+}
+.top4 .three h3{
+    color:white;
+}
+.top4 .three p{
+    color:white;
+}
+.top5{
+    height:39.375rem;
+    width:100%;
+    background-color:antiquewhite;
+    color:black;
+}
+.test{
+    display:flex;
+    align-items:flex-end;
+    margin-left:3.75rem;
+    margin-right:3.125rem;
+  
+}
+.heading-test{
+    color:black;
+    font-size:3.125rem;
+    margin-top:4.375rem;
+    font-weight:800;
+}
+.see{
+    color:red;
+    text-align:right;
+    margin-left:62.5rem;
+    font-weight:800;
+    font-size:1.25rem;
+    margin-bottom:0.625rem;
+}
+.example{
+    display:flex;
+    justify-content:space-between;
+    height:25rem;
+    width:100%;
+    margin-top:3.125rem;
+    margin-left:1.875rem;
+    margin-right:9.375rem;
+    flex-wrap:wrap;
+}
+.test1{
+width:25%;
+height:25rem;
+
+}
+.content{
+    height:12.5rem;
+    margin:1.25rem 1.25rem 1.25rem 1.25rem;
+}
+.name{
+    height:6.25rem;
+    margin:1.25rem 1.25rem 1.25rem 1.25rem;
+    display:flex;
+   
+}
+.actual-name{
+    letter-spacing:0rem;
+    font-weight:700;
+    font-size:1.5625rem;
+}
+.top6{
+    display:flex;
+}
+.request{
+    height:43.75rem;
+    width:50%;
+    background-color:rgb(228, 222, 222);
+}
+.form{
+    height:43.75rem;
+    width:50%;
+    background-color:rgb(242, 236, 236);
+}
+.top6 {
+    color:black;
+}
+.top6 h1{
+    font-size:3.125rem;
+    letter-spacing:0.125rem;
+}
+.hei{
+    margin-top:2.5rem;
+    margin:3.75rem;
+
+}
+.top6 p{
+    margin-top:1.875rem;
+    line-height:1.25rem;
+    font-weight:800;
+}
+.content2{
+    line-height:1.5625rem;
+    margin-left:3.75rem;
+    margin-right:3.125rem;
+    margin-top:1.25rem;
+
+}
+.mylist{
+    margin-left:5rem;
+    margin-right:3.125rem;
+    margin-top:2.5rem;
+    line-height:1.875rem;
+    font-weight:800;
+    letter-spacing:0rem;
+    font-size:1.25rem;
+}
+.main-form{
+    margin-top:4.375rem;
+margin-left:5rem;
+margin-right:4.375rem;
+height:36.25rem;
+/* border:2px solid black; */
+background-color:rgb(242, 236, 236);
+}
+.main-form h2{
+    margin-top:1.875rem;
+}
+.main-form input{
+    height:2.5rem;
+    margin-top:1.25rem;
+    width:80%;
+background-color:rgb(248, 230, 233);
+border:none;
+}
+.main-form textarea{
+    background-color:rgb(248, 230, 233);
+    margin-top:1.875rem;
+}
+button{
+    margin-top:1.5625rem;
+    
+    height:3.125rem;
+    width:15.625rem;
+    color:red;
+    font-weight:700;
+font-size:1.25rem;
+border:3px solid red;
+background-color:rgb(249, 214, 219);
+}
+.back{
+    height:3.75rem;
+    background-color:#37475a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    letter-spacing:0rem;
+    font-weight:800;
+    font-size:1.25rem;
+}
+.second{
+    height:25rem;
+    background-color:#222f3d;
+    line-height:1.25rem;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.second p{
+    font-size:1.5625rem;
+margin-top:1.875rem;
+margin-left:1.25rem;
+}
+.second ul li{
+    letter-spacing:0rem;
+    margin-top:1.25rem;
+    list-style-type:none;
+    margin-left:1.25rem;
+}
+.hy{
+    margin-top:1.875rem;
+    margin-left:1.875rem;
+    margin-right:1.875rem;
+}
+.copy{
+    height:3.75rem;
+    background-color:black;
+}
+.privacy{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.privacy a{
+    text-decoration:none;
+    margin-right:1.25rem;
+    margin-top:0.625rem;
+    color:white;
+}
+.copyright{
+    letter-spacing:0rem;
+    text-align:center;
+    margin-top:0.3125rem;
+}
